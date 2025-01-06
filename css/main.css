@@ -334,9 +334,98 @@ a{
     letter-spacing: 0.2px;
     color: #737373;
 }
-
 /* ----------------------- ADVICE END -----------------------  */
 
+/* ----------------------- SERVICES START ----------------------- */
+.services{
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services__text-wrapper{
+    margin-bottom: 100px;
+}
+
+.services__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 15px;
+}
+
+.services__info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 50px;
+}
+
+.services__video-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+.services__fields-wrapper{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.services__fields{
+    padding: 20px 0;
+
+}
+
+.services__fields-title{
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.services__fields-info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: left;
+}
+
+.field{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.field__title{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.field__info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    text-align: left;
+}
+
+/* ----------------------- SERVICES END ----------------------- */
 
 
 
