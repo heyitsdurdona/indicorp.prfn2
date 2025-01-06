@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montreal', sans-serif;
+    font-weight: 700;
+    background-color: #FAFAFA;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1076px;
+    padding: 0 15px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ----------------------- HEADER START ----------------------- */
+.wrapper{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 793px;
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.site-header__wrapper{
+    display: flex;
+    gap: 121px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.site-header__logo-link{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.site-header__nav-list{
+    display: flex;
+    gap: 21px;
+}
+
+.site-header__nav-link{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.hidden-nav{
+    display: none;
+}
+
+/* ----------------------- HEADER END ----------------------- */
+
+/* ----------------------- HERO START ----------------------- */
+.hero{
+    padding: 80px 0;
+}
+
+.hero__wrapper{
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+}
+
+.hero__text-wrapper{
+    width: 509px;
+}
+
+.hero__title{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 35px;
+}
+
+.hero__info{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 35px;
+}
+
+.hero__button-wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.hero__get-quote{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: #FFA62B;
+    border-radius: 37px;
+    padding: 10px 36px;
+}
+
+.hero__get-quote:hover{
+    background-color: #fff;
+    color: #FFA62B;
+    border: 1px solid #FFA62B;
+}
+
+.hero__learn-more{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    background: #FAFAFA;
+    border-radius: 37px;
+    padding: 10px 36px;
+
+    border: 1px solid #00A0C1;
+    color: #00A0C1;
+}
+
+.hero__learn-more:hover{
+    background-color: #00A0C1;
+    color: #fff;
+}
+
+.hero__cards-wrapper{
+    display: flex;
+    gap: 30px;
+}
+
+.hero__card{
+    padding: 35px 40px;
+    background-color: #fff;
+}
+
+.hero__card:nth-child(3){
+    background-color: #00A0C1;
+
+}
+
+.hero__card:nth-child(3) .hero__card-title,
+.hero__card:nth-child(3) .hero__card-info {
+    color: #fff;
+}
+
+.hero__card:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero__card-img{
+    margin-bottom: 10px;
+}
+
+.hero__card-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.hero__card-info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+/* ----------------------- HERO END ----------------------- */
+
+/* ----------------------- WHY CHOOSE START ----------------------- */
+.why-choose{
+    padding: 80px 0;
+}
+
+.why-choose__wrapper{
+    display: flex;
+    text-align: center;
+    
+    flex-direction: column;
+}
+
+.why-choose__text-wrapper{
+    text-align: center;
+}
+
+.why-choose__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.why-choose__info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 50px;
+}
+
+.why-choose__card-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1079px;
+}
+
+.why-choose__card{
+    padding: 30px 40px;
+    background-color: #fff;
+    width: 240px;
+}
+
+.why-choose__card:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.why-choose__img{
+    margin-bottom: 10px;
+}
+
+.why-choose__card-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.why-choose__card-info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+/* ----------------------- WHY CHOOSE END ----------------------- */
+
+
+/* ----------------------- ADVICE START ----------------------- */
+.advice{
+    padding: 80px 0;
+}
+
+.advice__text-wrapper{
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.advice__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.advice__info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    /* margin-bottom: 50px; */
+}
+
+.advice__card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.advice__card{
+    width: 238px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #fff;
+}
+
+.advice__card-text-wrapper{
+    padding: 30px;
+}
+
+.advice__card-title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-bottom: 15px;
+}
+
+.advice__card-info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+/* ----------------------- ADVICE END -----------------------  */
+
+
+
+
+
+@media only screen and (max-width: 576px){
+    .site-header__wrapper{
+        justify-content: space-between;
+    }
+
+    .site-header__nav{
+        display: none;
+    }
+
+    .hidden-nav{
+        display: block;
+    }
+
+    .hidden-nav__list{
+        display: flex;
+        gap: 30px;
+    }
+
+
+}
+
+
+
