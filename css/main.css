@@ -491,6 +491,8 @@ a{
 }
 
 /* ----------------------- ADVERTISEMENT END ----------------------- */
+
+/* ------------------------ CONTACTS START ---------------------- */
 .contacts{
     background-color: #F3F3F3;
 }
@@ -583,11 +585,99 @@ a{
     border: 1px solid #fff;
     color: white;
 }
-
-/* ------------------------ CONTACTS START ---------------------- */
-
 /* ------------------------- CONTACTS END ---------------------- */
 
+/* ------------------------- FOOTER START ---------------------- */
+.site-footer{
+}
+
+.site-footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.footer__title{
+    font-weight: 700;
+    font-size: 24;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.footer__info{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.footer__contact-btn{
+    padding: 15px 40px;
+    background-color: #FFA62B;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.footer__contact-btn:hover{
+    background-color: #fff;
+    border: 1px solid #FFA62B;
+    color: #FFA62B;
+}
+
+.footer__card-wrapper{
+    background-color: #16697A;    
+}
+
+.footer__card-container{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__card-list{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.footer__card-link{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.copyright-info{
+    font-weight: 600;
+    font-weight: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.footer__logo-wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.copyright__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+}
+
+/* ------------------------- FOOTER END ------------------------*/
 @media only screen and (max-width: 576px){
     .site-header__wrapper{
         justify-content: space-between;
